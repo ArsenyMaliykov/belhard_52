@@ -1,38 +1,39 @@
-print('Hello World')
-print(123) 
-print('WhoCame?')
-print('Привет! Я Арсений')
-print('и что?')
-text = 'Helloy Helloy Helloy'
-text =text . replace('y',' ')
-print(text)
+#a=float(input("Введите первое число:"))
+#what=input("Что хотите сделать?(+,-,*,/,**):")
+##b=float(input("Введите второе число:"))
+#if what=="+":
+    #c= a+b
+    #print("Ответ: "+str(c))
+#elif what=="-":
+    #c= a-b
+    #print("Ответ: "+str(c))
+#elif what=="*":
+    #c= a*b
+    #print("Ответ: "+str(c))
+#elif what=="/":
+    #с= а/b
+    #print("Ответ: "+str(c))
+#elif what=="**":
+    #c= a**b
+    #print("Ответ: "+str(c)
+#data = {
+    #1: 'a',
+    #2: 'b',
+    #3: 'c',
+#}
+#for key in data:
+       #print(key)
 
-first_name = "Whocame--Mountaindew--Smokazacho"
-words = first_name.split('--')
-print(words)
-new_text = '\n'.join(words)
-print(new_text)
-print(first_name.istitle())
-a=15
-b=15
-c=(a+b)
-print(c)
-from time import sleep
-from os import system
-text='МаКс лОх'
-for i in range(2):
-    print(text)
-    text = text.swapcase()
-    sleep(0.5)
-what=input("Что делаем?(+,-,*,):")
-a=float(input("Введи первое число: "))
-b=float(input("Введи второе число: "))
-if what=="+":
-    c= a+b
-    print("Результат: "+str(c))
-elif what=="-":
-    c= a-b
-    print("Результат: "+str(c))
-elif what=="*":
-    c=a*b
-    print("Результат: "+str(c))
+
+#number = input('Введи число: ')
+#while not number.isdigit():
+    #print('Are you stupid man?')
+    #number = input('Try again stupid: ')
+#while number.isdigit():
+#number = int(number)
+
+numbers = '4 5 6 7 8 9 1 2'
+numbers = numbers.split(' ')
+for i,number in enumerate(numbers):
+    numbers[i] = int(number)
+print(numbers)
